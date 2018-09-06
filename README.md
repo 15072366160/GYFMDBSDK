@@ -1,12 +1,12 @@
 # GYFMDBSDK
 基于FMDB简单封装数据库的创建及增删改查功能。
 
-####第一步
+###第一步
 ```objectivec
 pod 'GYFMDBSDK',' ~> 0.0.1'
 ```
 
-####第二步
+###第二步
 AppDelegate.m文件引入头文件 
 
 ```objectivec
@@ -18,7 +18,7 @@ didFinishLaunchingWithOptions 初始化 GYFMDBManager
 [GYFMDBManager shared];
 ```
 
-####第三步
+###第三步
 ```objectivec
 数据库字段基本类型
 
@@ -96,12 +96,7 @@ static NSString * const Sid  = @"id";
     }else{
         NSLog(@"****GYFMDBSDK****: 删除表失败");
     }
-    
-
-    
 }
-
-
 
 @end
 

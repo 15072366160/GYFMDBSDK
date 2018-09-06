@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/15072366160/GYFMDBSDK"
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
 
   s.author             = { "Paul" => "564057354@qq.com" }
 

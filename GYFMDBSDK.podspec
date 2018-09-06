@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '8.0'
 
-  s.source       = { :git => 'https://github.com/15072366160/GYFMDBSDK.git', :tag => '#{s.version}' }
+  s.source       = { :git => 'https://github.com/15072366160/GYFMDBSDK.git', :tag => '1.0.7' }
 
   s.source_files  = 'GYFMDBSDK.framework', 'GYFMDBSDK.framework/**/*.{h,m}'
 #s.exclude_files = 'Classes/Exclude'

@@ -2,24 +2,24 @@
 基于FMDB简单封装数据库的创建及增删改查功能。
 
 ####第一步
-```swift
+```objectivec
 pod 'GYFMDBSDK',' ~> 0.0.1'
 ```
 
 ####第二步
 AppDelegate.m文件引入头文件 
 
-```swift
+```objectivec
 #import <GYFMDBSDK/GYFMDBManager.h>
 ```
 didFinishLaunchingWithOptions 初始化 GYFMDBManager
 
-```swift
+```objectivec
 [GYFMDBManager shared];
 ```
 
 ####第三步
-```swift
+```objectivec
 数据库字段基本类型
 
 static NSString * const GYFMDB_BOOL     = @"BOOL NOT NULL";     // BOOL数值
@@ -32,7 +32,7 @@ static NSString * const GYFMDB_TEXT     = @"TEXT NOT NULL";     // 长文本数�
 ```
 
 使用方法
-```swift
+```objectivec
 #import "ViewController.h"
 
 #import <GYFMDBSDK/GYFMDBManager.h>

@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.name         = "GYFMDBSDK"
 
-  s.version      = "0.0.4"
+  s.version      = "1.0.1"
 
   s.summary      = "基于FMDB简单封装数据库的创建及增删改查功能。"
 

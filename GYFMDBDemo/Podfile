@@ -1,0 +1,11 @@
+platform :ios,’9.0’
+target 'GYFMDBDemo' do 
+
+use_frameworks!
+
+    pod 'FMDB', '~> 2.7.2'
+
+end
+
+
+
